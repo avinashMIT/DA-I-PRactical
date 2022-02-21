@@ -8,5 +8,83 @@
   </head>
   <body>
     <h1>HTML Form Example</h1>
+    <!-- form>table>tr*11>td*2 -->
+    <form action="">
+      <table>
+        <tr>
+          <td>First Name</td>
+          <td>:</td>
+          <td><input type="text" placeholder="Enter your First name" /></td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td>:</td>
+          <td><input type="text" placeholder="Enter your last name" /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td><input type="email" placeholder="abc@gmail.com" /></td>
+        </tr>
+        <tr>
+          <td>Mobile Number</td>
+          <td>:</td>
+          <td><input type="number" min="1000000000" max="9999999999" /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="gender" checked />Male
+            <input type="radio" name="gender" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td>:</td>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <td>Adress</td>
+          <td>:</td>
+          <td><textarea name="" id="" cols="25" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td>Qalification</td>
+          <td>:</td>
+          <td>
+            <select name="" id="">
+              <option value="">SSC</option>
+              <option value="">HSC</option>
+              <option value="" selected>BTect IT</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4">Specilization</td>
+          <td rowspan="4">:</td>
+          <td><input type="checkbox" />Computer Science</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" checked />Infomration Technology</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" />Mechanical Engineering</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" />Electrical Engineer</td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>:</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Register" /></td>
+          <td></td>
+          <td><input type="reset" value="RESET" /></td>
+        </tr>
+      </table>
+    </form>
   </body>
 </html>
